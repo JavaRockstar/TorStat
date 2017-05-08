@@ -9,7 +9,7 @@ Tor Statistics
 ![alt tag](https://s27.postimg.org/y2z4a5hhv/tor.png)
 
 ###### Requirements
-* [ProxyChains](http://proxychains.sourceforge.net/)
+* [ProxyChains](http://proxychains.sourceforge.net/) (Optional - only if you need more features to work)
 * [Colorama](https://pypi.python.org/pypi/colorama)
 * [psutil](https://pypi.python.org/pypi/psutil)
 
