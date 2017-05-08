@@ -82,7 +82,7 @@ def TOR_CHECK_PRNT(data):
 		print ("[" + Fore.GREEN + Style.BRIGHT + "+" + Style.RESET_ALL + "]" + Fore.GREEN + Style.BRIGHT + " TorStat's network traffic was routed through tor, onto the next stage...\n" + Style.RESET_ALL)
 		return True
 	elif (data["IsTor"]==False):
-		print ("[" + Fore.YELLOW + Style.BRIGHT + "!" + Style.RESET_ALL + "]" + Fore.YELLOW + Style.BRIGHT +" TorStat cannot perform any more recon on the tor servers because TorStat's network traffic was not routed through tor.\n\t " + Style.RESET_ALL + Fore.WHITE + Style.DIM + "=> try : proxychains python torstat.py\n" + Style.RESET_ALL)
+		print ("[" + Fore.YELLOW + Style.BRIGHT + "!" + Style.RESET_ALL + "]" + Fore.YELLOW + Style.BRIGHT +" TorStat cannot perform any more recon on the tor servers because TorStat's network traffic was not routed through tor.\n\t " + Style.RESET_ALL + Fore.WHITE + Style.DIM + "=> try : proxychains python TorStat.py\n" + Style.RESET_ALL)
 		return False
 
 def NODE_INFO(IP_ADDR):
