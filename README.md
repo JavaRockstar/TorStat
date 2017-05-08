@@ -18,7 +18,7 @@ Then you can download smap by cloning the [Git](https://github.com/suraj-root/To
 
     git clone https://github.com/suraj-root/TorStat.git
     cd TorStat/
-    ./TorStat.py
+    proxychains python TorStat.py
     
 ###### Demo video
 [![asciicast](https://asciinema.org/a/119659.png)](https://asciinema.org/a/119659?speed=1.2)
